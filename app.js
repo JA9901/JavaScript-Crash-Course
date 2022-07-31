@@ -1,7 +1,9 @@
-function convertCelsiusToFahrenheit(tempC)  {
-    return tempC * 1.8 + 32
+let dollars = [1, 5, 10, 3]
+
+let cents = []
+
+for (let i = 0; i < dollars.length; i++){
+    cents.push(dollars[i] * 100)
 }
 
-console.log(convertCelsiusToFahrenheit(0));
-console.log(convertCelsiusToFahrenheit(10));
-console.log(convertCelsiusToFahrenheit(30));
+console.log(cents)
